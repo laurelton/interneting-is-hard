@@ -1,18 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
 h1, p {
   background-color: #DDE0E3;  /* Light gray */
 }
 
 h1 {
   padding: 50px;
-  border: 15px solid #16B000;
+  border: 5px solid #16B000;
 }
 
 p {
-/*  padding: 20px 10px; */
-  margin-bottom: 50px;          
+  padding: 10px;           
 }
 
 em, strong {
   background-color: #B2D6FF;  /* Light blue */
   
+}
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+  box-sizing: border-box;
+  margin: 20px auto;
 }
