@@ -15,10 +15,14 @@
 
 .menu {
     /* For debugging */
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     width: 900px;
     display: flex;
     justify-content: space-between;
+}
+
+.signup {
+    margin-left: auto;
 }
 
 .links {
@@ -49,9 +53,9 @@
 
 .social,
 .subscribe {
-  /* border: 1px solid #5995DA; */
-  align-self: flex-end;
-  margin-bottom: 20px;
+    /* border: 1px solid #5995DA; */
+    align-self: flex-end;
+    margin-bottom: 20px;
 }
 
 .photo-grid-container {
@@ -80,4 +84,23 @@
 
 .last-item {
     order: -1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-one,
+.footer-three {
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
 }
