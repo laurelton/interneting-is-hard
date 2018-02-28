@@ -2,26 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     height: 1200px;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     justify-content: center;
-  }
-  
-  .example {
+}
+
+.example {
     display: flex;
     justify-content: space-around;
-    
     width: 800px;
     margin: 50px 0;
     background-color: #D6E9FE;
-  }
-  
-  .item img {
+}
+
+.item img {
     display: block;
-  }
+}
+
+.item-relative {
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
